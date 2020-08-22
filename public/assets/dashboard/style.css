@@ -1,0 +1,96 @@
+.bg-dark-custom {
+    background-image: linear-gradient(45deg, #0a151f, #232e3a)!important;
+}
+.bg-blue-gradient {
+    background: linear-gradient(90deg, rgba(26,26,176,1) 35%, rgba(40,116,202,1) 100%);
+}
+.magup-logo {
+    text-transform: uppercase;
+    font-family: 'Londrina Solid', cursive;
+    font-size:40px;
+    color:white;
+}
+.dashboard-group .item a {
+    padding:10px 10px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.411);
+    font-weight:600;
+    transition:all ease 0.3s;
+}
+.dashboard-group .item a .value {
+    color: rgba(255, 255, 255, 0.521);
+    transition:all ease 0.3s;
+}
+.dashboard-group .item a:hover {
+    color:rgba(255, 255, 255, 0.795);
+    background-color:rgba(155, 153, 167, 0.281);
+    transition:all ease 0.3s;
+}
+.dashboard-group .item a:hover .value {
+    color:rgba(255, 255, 255, 0.795);
+    transition:all ease 0.3s;
+}
+.dashboard-group .item a .total {
+    background-color:rgb(47, 68, 255);
+    color:white;
+    border-radius:50px;
+    margin-left: auto;
+    font-weight: bold;
+    padding: 3px 7px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+}
+.w-70 {
+    width: 20rem;
+}
+.shadow-bug {
+    z-index: 10;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.274);
+    padding:15px 0;
+    font-weight:600;
+    text-transform:uppercase;
+    cursor:default;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+}
+.separator::before {
+    margin-right: .35em;
+}
+.separator::after {
+    margin-left: .35em;
+}
+.font-600 {
+    font-weight:600;
+}
+#dashboard-nav::-webkit-scrollbar-thumb {
+    background-color: rgba(102, 102, 102, 0);
+    transition:all ease 0.3s;
+}
+#dashboard-nav::-webkit-scrollbar {
+    width: 5px;
+}
+#dashboard-nav:hover::-webkit-scrollbar-thumb {
+    background-color: #666;
+    transition:all ease 0.3s;
+}
+#dashboard-nav {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    transition:all ease 0.3s;
+}
+#dashboard-nav:hover {
+    scrollbar-color: #666 transparent;
+    transition:all ease 0.3s;
+}
